@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="true_button"> OK</string>
+    <string name="false_button"> No</string>
+    <string name="correct_toast"> Correct</string>
+    <string name="incorrect_toast">Incorrect</string>
+    <string name="next_button">Next </string>
+    <string name="question_ocean">The telantic ocean is the largest one ? </string>
+    <string name="question_mideast">The Iran is an isealan nation ?</string>
+    <string name="question_america">Canade is an largest one in America?</string>
+    <string name="question_asia">Chine not an Asia nation? </string>
+</resources>
