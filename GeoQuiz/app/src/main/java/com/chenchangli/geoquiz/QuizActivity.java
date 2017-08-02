@@ -12,7 +12,7 @@ public class QuizActivity extends AppCompatActivity {
     private Button mFalseButton;
     private Button mNextButton;
     private TextView mQuestionTextView;
-    private Question mQuestionBank=new Question[]{
+    private Question[] mQuestionBank=new Question[]{
             new Question(R.string.question_ocean,true),
             new Question(R.string.question_mideast,true),
             new Question(R.string.question_america,true),
@@ -24,7 +24,7 @@ public class QuizActivity extends AppCompatActivity {
         mQuestionTextView.setText(question);
     }
     private void checkAnswer(boolean userPressTrue){
-        boolean answerIsTrue=mQuestionBank.isAnswerTrue();
+        boolean answerIsTrue=mQuestionBank[mCurrentIndex].isAnswerTrue();
         int messageResId = 0;
         if(userPressTrue==answerIsTrue){
             messageResId=R.string.correct_toast;
