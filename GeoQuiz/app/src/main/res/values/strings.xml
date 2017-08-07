@@ -5,6 +5,7 @@
     <string name="correct_toast"> Correct</string>
     <string name="incorrect_toast">Incorrect</string>
     <string name="next_button">Next </string>
+    <string name="priv_button">Priv</string>
     <string name="question_ocean">The telantic ocean is the largest one ? </string>
     <string name="question_mideast">The Iran is an isealan nation ?</string>
     <string name="question_america">Canade is an largest one in America?</string>
